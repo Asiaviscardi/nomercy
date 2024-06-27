@@ -1,144 +1,14 @@
+/* STILE GENERICO DEL SITO  */
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.navbar{
+.main-container{
     width: 100%;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-bottom: 10px solid red;
+    height: 100%;
+    background-color: blue;
 }
 
-.img-container{
-    width: 4%;
-}
-
-.img-container img{
-    width: 100%;
-}
-
-.img-container p{
-    color: white;
-}
-
-ol{
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ol li a{
-    color: white;
-    padding-right: 20px;
-    text-align: center;
-    text-decoration: none;
-}
-
-ol li a:hover{
-    color: red;
-
-}
-
-.icon{
-    color: white;
-}
-
-main{
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-main .sfondo-home{
-    width: 100%;
-    height: 50vh;
-    background-image: url(./Img/e-sports.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-}
-
-main .sfondo-home div{
-    width: 30%;
-    color: white;
-    text-align: center;
-}
-
-main .sfondo-home h1{
-    padding-bottom: 10px;
-}
-
-main .sfondo-home button{
-    width: 180px;
-    padding: 10px;
-    margin-top: 15px;
-    background-color: red;
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
-}
-
-main .sfondo-home button:hover{
-    background-color: rgb(171, 0, 0);
-}
-
-main .ruoli{
-    background-color: brown;
-    width: 95%;
-    height: 20vh;
-    display: flex;
-    text-align: center;
-    margin: 20px 0px;
-}
-
-main .ruoli div{
-    width: 25%;
-    padding: 40px;
-    border-right: 1px solid black;
-}
-
-main .ruoli .title{
-    padding: 0px 10px;
-    font-size: xxx-large;
-}
-
-main .ruoli p{
-    padding-top: 10px;
-    font-size: x-large;
-}
-
-main .section{
-    width: 90%;
-    height: 50vh;
-    background-color: aqua;
-    border: 1px solid black;
-    display: flex;
-    margin-bottom: 20px;
-}
-
-main .section .news{
-    width: 50%;
-    border: 1px solid black;
-    background-image: url(news.png);
-    background-size: cover;
-}
-
-footer{
-    width: 100%;
-    height: 30vh;
-    display: flex;
-}
-
-footer div{
-    width: 100%;
-    background-color: black;
-    color: white;
-    border: 1px solid red;
-}
