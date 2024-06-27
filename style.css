@@ -58,7 +58,7 @@ main{
 main .sfondo-home{
     width: 100%;
     height: 50vh;
-    background-image: url(e-sports.jpg);
+    background-image: url(./Img/e-sports.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
