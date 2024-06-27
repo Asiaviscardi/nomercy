@@ -4,50 +4,6 @@
     box-sizing: border-box;
 }
 
-.navbar{
-    width: 100%;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-bottom: 10px solid red;
-}
-
-.img-container{
-    width: 4%;
-}
-
-.img-container img{
-    width: 100%;
-}
-
-.img-container p{
-    color: white;
-}
-
-ol{
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ol li a{
-    color: white;
-    padding-right: 20px;
-    text-align: center;
-    text-decoration: none;
-}
-
-ol li a:hover{
-    color: red;
-
-}
-
-.icon{
-    color: white;
-}
-
 main{
     background-color: black;
     display: flex;
